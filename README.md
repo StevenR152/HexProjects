@@ -66,7 +66,7 @@ Wrapping up the technology and purpose:
 - Json data for the XMLhttprequest [data.json](https://codersuk-test.s3-eu-west-1.amazonaws.com/data.json)
 
 
-## [AWS](https://aws.amazon.com/) Exercise B: Create a serverless backend on AWS!
+## [AWS](https://aws.amazon.com/) Exercise B1: Create a serverless backend on AWS!
 In this exercise you're tasked to:
 
 - Make a python (or other) backend api which runs as a serverless app in AWS.
