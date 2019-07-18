@@ -38,14 +38,14 @@ Update your A1 exercise's website to call functionality on a provided backend ap
 - use css/html to structure information on a page
 
 
-Let's get started:
+### Steps
 1 - use your  GitHub repository from the earlier website project (session 1). 
 2 - Include jquery into the page in a script tag. 
 3 - implement calling the public api to print the response to the console. 
 4 - use the response object to update the page with information. 
 5 - style the page. 
 
-## ADVANCE/INTERMEDIATE
+## Extra for experts
 For advance users - try to build the following filters:
 
 - Name search filter
