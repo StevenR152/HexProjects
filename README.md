@@ -29,7 +29,7 @@ Let's get started:
 6) Commit and push changes to the repository that makes the webpage contain different content or link in a [css](https://www.w3schools.com/css/default.asp) file to style the page. 
 
 
-## [AWS](https://aws.amazon.com/) Exercise A2: # AWS SESSION 2  - FRONT END
+## [AWS](https://aws.amazon.com/) Exercise A2: Make the hosted website call a backend!
 
 In this exercise you're tasked to:
 Update your A1 exercise's website to call functionality on a provided backend api.
