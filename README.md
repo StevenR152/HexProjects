@@ -1,8 +1,9 @@
 # HexProjects
-A series of independent workshops that plug into each other to teach many parts of technology in a way the industry uses them
+A series of loosely independent workshops that plug into each other to teach many parts of technology in a way the industry uses them
 
+Exercises are labeled with letters to show dependency, A1 should be done before A2. But B1 is loosely independent of both. You'll have a more rounded project if you do them all, as they can interlink so give a overall portfolio peice. For example making your frontend call the backend which are deployed using the devop's and run on the infrastructure individual exercises.
 
-## [AWS](https://aws.amazon.com/) Exercise 1: Host a static website in S3 for dirt cheap!
+## [AWS](https://aws.amazon.com/) Exercise A1: Host a static website in S3 for dirt cheap!
 In this exercise you're tasked to:
 
 - Make a website that is hosted on [AWS](https://aws.amazon.com/) (Amazon Web Services) using Simple Storage Service (S3).
@@ -28,7 +29,44 @@ Let's get started:
 6) Commit and push changes to the repository that makes the webpage contain different content or link in a [css](https://www.w3schools.com/css/default.asp) file to style the page. 
 
 
-## [AWS](https://aws.amazon.com/) Exercise 2: Create a serverless backend on AWS!
+## [AWS](https://aws.amazon.com/) Exercise A2: # AWS SESSION 2  - FRONT END
+
+In this exercise you're tasked to:
+Update your A1 exercise's website to call functionality on a provided backend api.
+- use jquery (or plain old javascript) to request a public api - For this tutorial no API key will be required
+- use jquery to update the page. 
+- use css/html to structure information on a page
+
+
+Let's get started:
+1 - use your  GitHub repository from the earlier website project (session 1). 
+2 - Include jquery into the page in a script tag. 
+3 - implement calling the public api to print the response to the console. 
+4 - use the response object to update the page with information. 
+5 - style the page. 
+
+## ADVANCE/INTERMEDIATE
+For advance users - try to build the following filters:
+
+- Name search filter
+- group geolocation
+
+Wicked, the website is starting to take shape! 
+
+Wrapping up the technology and purpose:
+
+- JQuery to issue an HTTP GET request
+- JQuery to manipulate the website DOM to add information
+- CSS to style the page
+
+## Resources
+
+- [https://api.jquery.com/](https://api.jquery.com/)
+- [https://github.com/codersuk/AWS-exercise-1](https://github.com/codersuk/AWS-exercise-1)
+- Json data for the XMLhttprequest [data.json](https://codersuk-test.s3-eu-west-1.amazonaws.com/data.json)
+
+
+## [AWS](https://aws.amazon.com/) Exercise B: Create a serverless backend on AWS!
 In this exercise you're tasked to:
 
 - Make a python (or other) backend api which runs as a serverless app in AWS.
